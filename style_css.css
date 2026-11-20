@@ -1,0 +1,169 @@
+@font-face {
+  font-family: racingfont;
+  src: url(RacingSansOne-Regular.ttf);
+}
+
+#menubar {
+  border-radius:15px;
+  width: 1400px;
+  height: 50px;
+  margin-top: 860px;
+  margin-left: 30px;
+  background-color: #6d1032ee;
+  position: sticky;
+  top: 10px;
+  z-index: 9999;
+
+  display: flex;
+  align-items: center;
+  gap: 200px;
+}
+
+#menubar .turbo {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  object-fit: contain;
+}
+
+#menubar a {
+  position: static;
+  display: block;
+  color: #cccccc;
+  border-radius:5px;
+  font-family: "OCR A", sans-serif;
+  font-size: 35px;
+  text-decoration: none;
+}
+
+#menubar a:hover {
+  background-color: #440b20;
+  color: #ffffff;
+}
+
+
+body {
+	min-height : 1700px;
+	background-image: url('index_imgs/collagebgblue.jpg');
+	background-repeat: repeat;
+	background-size: 1000px;
+}
+#front {
+	position : absolute;
+	width : 1500px;
+	top : 0px;
+} 
+	
+#fronttext {
+	position : absolute;
+	top : 0px;
+	left : 240px; 	
+}
+
+#imageone {
+	position : absolute ;
+	top : 1150px;
+	left : 100px;
+
+}
+#imagetwo {
+	position : absolute;
+	top : 1800px;
+	left : 1000px;
+}
+
+#brief {
+	width : 700px;
+	height : 400px;
+	font-size:2vw;
+	font-family: "racingfont";
+	color : #ffffff;
+	position : absolute;
+	top : 1140px;
+	left : 650px;
+
+}
+
+#second {
+	width : 700px;
+	height : 400px;
+	font-size:2vw;
+	font-family: "racingfont";
+	color : #ffffff;
+	position : absolute;
+	top : 1825px;
+	left : 100px;
+
+} 
+
+#information {
+	position : absolute;
+	top : 1700px;
+	left : 100px;
+}
+
+.rallytypesbuttons {
+	position : relative;
+	margin-top ; 10px;	
+	font-size:2vw;
+	font-family: "racingfont";
+	color : #ffffff;
+}
+
+.rallytypesinfo {
+	font-size:25px;
+	font-family: "racingfont";
+	color : #ffffff;
+	position : absolute ;
+	left: 500px;
+	top: -5px;
+	width : 800px;
+}
+ 
+.rally-image {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 16px;
+  text-align: center;
+
+}
+
+.rally-image img {
+  display: block;
+}
+
+#rallymedia{
+	font-size:25px;
+	font-family: "racingfont";
+	color : #ffffff;
+	position : absolute ;
+	left: 50px;
+	top: 2200px;
+	width : 800px;
+
+}
+
+#end {
+	padding : 20px;
+	font-size:2vw;
+	font-family : arial;
+	color : #ffffff;
+	position : absolute;
+	top : 2450px;
+	left : 700px;
+}
+
+.endlink {
+	text-decoration: none;
+	color: #a9abbf;
+	font-size: 20px;
+	margin-left: 10px;
+	white-space: nowrap;
+}
+.endlink:hover {
+	color: #ffffff;
+} 
+.endlink:visited {
+	text-decoration: none;
+	color: #ffffff;
+} 

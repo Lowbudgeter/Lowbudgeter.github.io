@@ -2,117 +2,219 @@
 <html>
 
 <head> 
+
 	<title>
-	Need for Speed
+	Rallye
 	</title>
 
-	<style>
+<style>
 
-	body {
+@font-face {
+  font-family: racingfont;
+  src: url(RacingSansOne-Regular.ttf);
+}
 
-	background-image : url('nfs_gamefolders/mainbackground.png');
-	background-size: cover;
+#menubar {
+  border-radius:15px;
+  width: 1400px;
+  height: 50px;
+  margin-top: 850px;
+  margin-left: 30px;
+  background-color: #6d1032ee;
+  position: sticky;
+  top: 10px;
+  z-index: 9999;
 
-	}
+  display: flex;
+  align-items: center;
+  gap: 200px;
+}
+
+#menubar .turbo {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  object-fit: contain;
+}
+
+#menubar a {
+  position: static;
+  display: block;
+  color: #cccccc;
+  border-radius:5px;
+  font-family: "OCR A", sans-serif;
+  font-size: 35px;
+  text-decoration: none;
+}
+
+#menubar a:hover {
+  background-color: #440b20;
+  color: #ffffff;
+}
+
+
+
+body {
+	min-height: 2080px;
+	background-image: url('index_imgs/collagebgblue.jpg');
+	background-repeat: repeat;
+	background-size: 1000px;
 	
-	#ND4SPD {
-		position : absolute;
-		top : 30px;
-		left : 500px;
-	}
+}
+#front {
+	position : absolute;
+	width : 1500px;
+	top : 0px;
+	left: 0px;
+} 	
+#fronttext {
+	position : absolute;
+	height:1080px;
+	width:720px;
+	top : -50px;
+	left : 240px; 	
+}
 
-	#linkshere {
-		font-size : 20px;
-		font-family : tahoma;
-		color : #black;
-		position : absolute;
-		top : 100px;
-		left : 5px;
-		background-color : rgba(150,150,150,0.9);
-		padding : 5px;
-		border-radius : 3px;
-		width : 250px;
-		height : 410px;
-	}
+#imageone {
+	position : absolute ;
+	width:500px;
+	top : 1150px;
+	left : 100px;
 
-	#links {
-		position : absolute;
-		top : 130px;
-		left : 10px;
-		font-family : tahoma;
+}
+#imagetwo {
+	position : absolute;
+	width:500px;
+	top : 1800px;
+	left : 875px;
+}
 
-	}
+#brief {
+	width : 700px;
+	height : 400px;
+	font-size:2vw;
+	font-family: "racingfont";
+	color : #ffffff;
+	position : absolute;
+	top : 1230px;
+	left : 650px;
 
-	#maintable {
-		width : 700px;
-		height : 400px;
-		font-size : 20px;
-		font-family : arial;
-		color : #black;
-		position : absolute;
-		top : 100px;
-		left : 300px;
-		background : #aaaaaa;
-		padding : 10px;
-		border : 1px solid #000000;
-		border-radius : 10px;	
-		background-color : rgba(230,230,230,0.8);
-		overflow : auto;
-	}
+}
+
+#second {
+	width : 700px;
+	height : 400px;
+	font-size:2vw;
+	font-family: "racingfont";
+	color : #ffffff;
+	position : absolute;
+	top : 1825px;
+	left : 100px;
+
+} 
+
+#information {
+	position : absolute;
+	top : 2300px;
+	left : 100px;
+}
+
+.rallytypesbuttons {
+	position : relative;
+	margin-top ; 10px;	
+	font-size:2vw;
+	font-family: "racingfont";
+	color : #ffffff;
+}
+
+.rallytypesinfo {
+	font-size:25px;
+	font-family: "racingfont";
+	color : #ffffff;
+	position : absolute ;
+	left: 400px;
+	top: -5px;
+	width : 700px;
 	
-	.linkki:link { 
-		color : #000066;
-		font-size : 15px;
-		text-decoration : none;
-	}		
+}
 
-	.linkki:visited { 
-		color : #660066;
-		
-	}
 
-	.linkki:hover { 
-		color : #000000;
-		font-weight : bold;
-		text-decoration: underline;
-	}
+#end {
+	text-decoration: none;
+	padding : 20px;
+	font-size:2vw;
+	font-family : arial;
+	color : #ffffff;
+	position : absolute;
+	top : 2820px;
+	left : 700px;
+}
 
-	.linkki:active {
-		text-decoration: none;
-		color:#000055;
-	}
+.endlink {
+	text-decoration: none;
+	color: #a9abbf;
+	font-size: 20px;
+}
+.endlink:hover {
+	text-decoration: none;
+	color: #ffffff;
+} 
+.endlink:visited {
+	text-decoration: none;
+	color: #ffffff;
+} 
 
-	</style>
+</style>
+
 </head>
 
 
 <body>
+<div id="menubar">
+  <img class="turbo" src="index_imgs/nfs_smallogo.png" alt="NFS logo">
+  <a href="#">Home</a>
+  <a href="history.html">History</a>
+  <a href="media.html">Media</a>
+</div>
 
-					
-	<div id="ND4SPD"> img-src = "nfs_gamefolders\Need-For-Speed-Logo-2003-2008.png" </div>
+<div id="front"> <img src = "index_imgs/front.jpg" width = "1500px"> </div>
+<div id="fronttext"> <img src = "index_imgs/Need-For-Speed-Logo-2003-2008.png" > </div>
 
 
+<div id="imageone"> <img src = "index_imgs/1st main.jpg" width = "500px"> </div>
+<div id="imagetwo"> <img src = "index_imgs/2nd main.jpg" width = "500px"> </div>
 
-	<div id="linkshere"> NFS Games List </div>
+<div id = "information">
+<ul>
 
-	<div id="links"> 
-	<a class="linkki" href = "nfs_gamefolders/underground1.html"> NFS:Underground </a> 
-	<br>
-	<a class="linkki" href = "nfs_gamefolders/underground2.html"> NFS:Underground 2 </a> 
-	<br>
-	<a class="linkki" href = "https://www.youtube.com"> Youtube </a> 
-	<br>
+<li><details open name="info">
+	<summary class="rallytypesbuttons">Speed competitions</summary>
+	<p class="rallytypesinfo">These are the most common format of professional rallies and rally championships. The FIA organises the World Rally Championship, Regional Rally Championships and many countries' motorsport governing bodies organise domestic rallying championships using speed competitions. The stages may vary from flat asphalt and mountain passes to rough forest tracks, from ice and snow to desert sand, each chosen to provide a challenge for the crew and a test of the car's performance and reliability. A single-venue rally takes place without the need for public road sections though the format and rules remain.</p> 
+</details></li>
 
-	</div>
-
+<li><details name="info">
+	<summary class="rallytypesbuttons">Cross-country rallies</summary>
+	<p class="rallytypesinfo">Also commonly known by its types rally-raid or baja; cross-country rallies take place mostly off-road using similar competitive elements to road and special stage rallying competitions. When off-road, waypoints and markers are set using GPS systems, although competitors cannot use GPS for navigation. Crews must choose how best to cross the terrain to the next waypoint whilst respecting the navigational instructions provided in the roadbook. The challenge is mostly navigational and endurance. The World Rally-Raid Championship was inaugurated in 2022, including the annual Dakar Rally in its calendar, with joint sanctioning by the FIA and FIM.</p>
+</details ></li>
 	
+<li><details name="info">
+	<summary class="rallytypesbuttons">Touring assembly</summary>
+	<p class="rallytypesinfo">A touring assembly may have an organised route and simple passage controls but not any form of competition held or prizes given. One example, the Gumball 3000, which calls itself 'a rally not a race', explicitly states in its terms that no form of competition between participants must take place. The FIA defined this activity under 'rally of the touring kind' at least until 2007, though have now separated the term 'Touring Assembly' without using the word rally in its definition.</p>
+</details ></li>
+</ul>
+</div>
 
-	<div id="maintable"> 
-	Need for Speed (NFS) is a racing game franchise published by Electronic Arts. Most entries in the series are generally arcade racing games centered 	around illegal street racing, and task players with completing races of various types while evading police pursuit. Some entries also do not follow 	the basic setup of most titles and are instead simulation racers, focus on legal circuit races, feature kart racing game elements, or feature 	illegal street racing but do not also feature police pursuits. Need for Speed is one of EA's oldest franchises not published under their EA Sports 	brand.
-	<br><br>
+<div id="brief"> 
+	Rallying is a form of motorsport with various competitive elements such as speed tests, navigation tests, or the ability to reach waypoints or a destination at a given time or average speed.
+</div>
 
-	</div>
+<div id="second"> 
+	Unlike racing on a closed circuit, rallying takes place across a variety of changing surfaces and conditions. Drivers must adapt quickly to each stage while trusting their co-driver’s instructions to stay on course.
+</div>
 
+<div id="end">
+	<a href="#"><span class="endlink">Head Up</span></a>
+</div>
 
 </body>
 
